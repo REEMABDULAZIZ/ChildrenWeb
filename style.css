@@ -1,0 +1,90 @@
+body{
+    
+    background-image:url("./images/book.png");
+    background-color:bisque;
+    height: 10px;
+    width: 10px;
+    background-repeat:no-repeat;
+    background-image:opacity 0.5;  
+    background-size: cover;
+    text-align: center;
+
+    
+    
+    
+
+}
+header{
+    float: left;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px; 
+}
+
+
+section{
+    display: block;
+    
+}
+.h1{
+    color:red;
+    font-size: 77px;
+    font-style: normal;
+    font-family: 'bitter bold';
+    text-align: center;
+    padding: 1px;
+  
+    
+   
+    
+  
+}
+.h2{
+    
+    border-bottom: darkgray;
+    border: bottom 100px;
+    border-bottom-style: solid;
+    font-weight: 900 ;
+    text-transform: uppercase;
+    height: 45px;
+    width: 200px;
+    background-color: lightgray;
+    font-size: 20px
+
+    
+
+}
+.flex-container{
+    display: flex;
+  height: 200px;
+  align-items: center;
+  
+  
+  
+
+}
+ul{
+    border: 1px solid powderblue;
+    border-width: 5px;
+    
+}
+.div footer{
+    background-color: black;
+    color:white; 
+    display: inline-block;
+    
+    
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
