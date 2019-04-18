@@ -1,0 +1,132 @@
+body{
+    
+background-image:url("./images/book.png");
+background-color:	#F0F8FF; 
+background-repeat:no-repeat;
+background-size: auto 90vh;
+}
+
+header{
+border: 2px solid black; 
+float: left;
+color: black;
+padding: 2px;
+text-decoration: none;
+font-size: 20px; 
+line-height: 25px;
+border-radius: 4px; 
+left: 90px;  
+text-align: center;
+margin:auto;
+background-color:	#F0F8FF;
+}
+.All{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top:170px;
+}
+
+.wrapper {
+    width: 50vw;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.C{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    background-color: 	#F0F8FF;
+    background-image: url( "images/circle.png");
+    background-size: cover;
+
+
+
+}
+.O{
+    width: 203px;
+    height: 120px;
+    display: flex;
+    background-color:	#F0F8FF;
+    background-image: url( "images/oval.png");
+    background-size: cover;
+
+
+}
+.T{
+    width: 138px;
+    height: 120px;
+    display: flex;
+    background-color: 	#F0F8FF;
+    background-image: url( "images/triangle.png");
+    background-size: cover;
+
+
+}
+.S{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    background-color: 	#F0F8FF;
+    background-image: url( "images/greensquare.png");
+    background-size: cover;
+
+
+}
+.ST{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    background-color: 	#F0F8FF;
+    background-image: url( "images/star.png");
+    background-size: cover;
+
+
+}
+.D{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    background-color: 	#F0F8FF;
+    background-image: url( "images/diamond.png");
+    background-size: cover;
+
+}
+.H{
+    width: 130px;
+    height: 120px;
+    display: flex;
+    background-color:	#F0F8FF;
+    background-image: url( "images/Heart.png");
+    background-size: cover;
+
+}
+.R{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    background-color:	#F0F8FF;
+    background-image: url( "images/rectanglee.png");
+    background-size: cover;
+}
+
+
+.div footer{
+    background-color: black;
+    color:white; 
+    display: inline-block;    
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 82px;
+    background-color: #3CB371;
+    color: white;
+    text-align: center;  
+    font-size: 18px;
+}

@@ -1,0 +1,46 @@
+body{
+    
+    background-image:url("./images/book.png");
+    background-color:	#F0F8FF; 
+    background-repeat:no-repeat;
+    background-size: auto 90vh;
+    }
+    
+    header{
+    border: 2px solid black; 
+    float: left;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 4px; 
+    left: 90px;  
+    text-align: center;
+    margin: auto;
+    background-color:	#F0F8FF;
+    
+    }
+    .abc{
+      background-image: url("./images/abc.jpg")center cover;
+      position: absolute;
+      left: 500px;
+    
+    }
+  .div footer{
+    background-color: black;
+    color:white; 
+    display: inline-block;    
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 82px;
+  background-color: #3CB371;
+  color: white;
+  text-align: center;  
+  font-size: 18px;
+}
